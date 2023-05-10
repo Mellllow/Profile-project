@@ -1,0 +1,33 @@
+#box1{
+    width: 300px;
+  border: 15px solid rgb(0, 13, 128);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+}
+
+#box2{
+    width: 300px;
+  border: 15px solid rgb(252, 151, 0);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+}
+
+#box3{
+    width: 300px;
+  border: 15px solid rgb(128, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+}
+
+#box4{
+    width: 300px;
+  border: 15px solid rgb(0, 121, 0);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+}
+
+
