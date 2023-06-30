@@ -1,33 +1,93 @@
-#box1{
-    width: 300px;
-  border: 15px solid rgb(0, 13, 128);
-  padding: 50px;
-  margin: 20px;
-  position: relative;
+body{
+  background: linear-gradient( rgb(152, 255, 255), lightblue);
+  background-repeat: no-repeat;
+}
+a {
+  color: black
+}
+a:visited {
+  color: red;
+}
+a:hover{
+  color: aqua;
+}
+a:active{
+  color: whitesmoke;
 }
 
-#box2{
-    width: 300px;
-  border: 15px solid rgb(252, 151, 0);
+.pic{
+  width:100%;
+  border-radius: 5px;
+  max-width: fit-content;
+}
+.topbar{
+  border: 1vw solid  beige;
+  justify-content: right;
+  background-color: beige;
+  display: flex;
+  border-radius: 5px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.row{
+  display: flex;
+  justify-content:center;
+}
+.smallwidth{
+ width: 30% ;
+ justify-content: space-evenly;
+}
+.box1{
+
+  width: 300px;
+  border: 15px outset rgb(0, 13, 128);
+  border-radius: 25px;
   padding: 50px;
   margin: 20px;
-  position: relative;
+  display: flex;
+  
 }
 
-#box3{
+.pic2{
+  object-fit: cover;
+}
+.box2{
     width: 300px;
-  border: 15px solid rgb(128, 0, 0);
+  border: 15px outset rgb(252, 151, 0);
+  border-radius: 25px;
   padding: 50px;
   margin: 20px;
-  position: relative;
+  
+  display: flex;
+
+}
+.movieImg{
+  width: 300px;
+  height: auto;
+  
 }
 
-#box4{
+.box3{
     width: 300px;
-  border: 15px solid rgb(0, 121, 0);
+  border: 15px outset rgb(128, 0, 0);
+  border-radius: 25px;
   padding: 50px;
   margin: 20px;
-  position: relative;
+  
+  display: flex;
 }
 
+.box4{
+    width: 300px;
+  border: 15px outset rgb(0, 121, 0);
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  
+}
+
+.bottom{
+  border: 3px outset black;
+  position: sticky;
+}
 
